@@ -1,2 +1,90 @@
-# Ecommerce-AB-Testing
-E-commerce AB Testing project to evaluate design experiments on conversions and revenue
+# Ecommerce AB Testing Analysis
+
+
+This project aims to analyze the impact of three A/B tests - **Social Proof**, **CTA Button**, and **Image Layout** - on conversion rates and revenue. The goal is to understand how these changes impact and drive user engagement and revenue.
+
+---
+
+## Table of Contents 
+1. [Notebooks](#notebooks)
+2. [Data](#data)
+3. [Results](#results)
+4. [Key Visualizations](#key-visualizations)
+5. [Requirements](#requirements)
+6. [How to Run](#how-to-run)
+7. [Key Insights](#key-insights)
+
+--- 
+
+## Notebooks
+
+The analysis is structued into three notebooks: 
+1. 'notebooks/01_Data_Generation.ipynb' -> Generates synthetic dataset
+2. 'notebooks/02_Exploratory_Data_Analysis.ipynb' -> Exploratory data analysis
+3. 'notebooks/03_A_B_Testing.ipynb' -> Conducts A/B tests and generates insights
+
+--- 
+
+## Data 
+
+Synthetic datasets - users data and sessions data have been generated for this project. 
+
+- Large datasets are hosted externally: [https://drive.google.com/drive/folders/167K6KEiO084Ayve1s2yxUQbxFZQ1jUwA?usp=sharing] 
+- All datasets are downloadable and cen be opened locally.
+
+---
+ 
+## Results 
+
+Excel summaries of the A/B test outcomes are included in the 'results/' folder
+
+> Note: Some files may not render on GitHub due to size. Please download to view them locally.
+
+## Key Visualizations 
+
+- **Relative Lift (Frequentist):**
+![Relative Lift](images/1-Relative-Lift.png)
+
+- **Bayesian Lift:**
+![Bayesian Lift](images/2-Bayesian-Lift.png)
+
+- **FDR-adjusted P-values:**
+![FDR vs Raw](images/3-FDR-multiple-tests.png)
+
+ > Only a few key plots are included here. The other visualizations can be directly viewed on the notebooks.
+
+--- 
+
+## Requirements 
+
+- Python 3.12.11 (or higher)
+- Pandas
+- Numpy
+- Scipy
+- Matplotlib
+- Seaborn
+- Statsmodels
+
+Install dependencies with: 
+
+'''bash
+pip install -r requirements.txt 
+
+## How to Run 
+
+1. Open the notebooks in Google Colab or Jupyter Notebook
+2. Ensure that all dependencies are installed
+3. Run the notebooks sequentially:
+   1. Data Generation
+   2. EDA
+   3. A/B Testing Analysis
+
+
+--- 
+
+## Key Insights 
+
+* 
+
+
+
