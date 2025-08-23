@@ -19,9 +19,9 @@ This project aims to analyze the impact of three A/B tests - **Social Proof**, *
 ## Notebooks
 
 The analysis is structued into three notebooks: 
-1. [notebooks/01_Data_Generation.ipynb] -> Generates synthetic dataset
-2. [notebooks/02_Exploratory_Data_Analysis.ipynb] -> Exploratory data analysis
-3. [notebooks/03_A_B_Testing.ipynb] -> Conducts A/B tests and generates insights
+1. [1_data_generation](notebooks/01_Data_Generation.ipynb) -> Generates synthetic dataset
+2. [2_EDA](notebooks/02_Exploratory_Data_Analysis.ipynb) -> Exploratory data analysis
+3. [3_AB_Analysis](notebooks/03_A_B_Testing.ipynb) -> Conducts A/B tests and generates insights
 
 --- 
 
@@ -67,9 +67,9 @@ Excel summaries of the A/B test outcomes are included in the 'results/' folder
 
 Install dependencies with: 
 
-'''bash
+```bash
 pip install -r requirements.txt 
-'''
+```
 
 ## How to Run 
 
