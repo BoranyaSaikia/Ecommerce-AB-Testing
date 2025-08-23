@@ -19,9 +19,9 @@ This project aims to analyze the impact of three A/B tests - **Social Proof**, *
 ## Notebooks
 
 The analysis is structued into three notebooks: 
-1. 'notebooks/01_Data_Generation.ipynb' -> Generates synthetic dataset
-2. 'notebooks/02_Exploratory_Data_Analysis.ipynb' -> Exploratory data analysis
-3. 'notebooks/03_A_B_Testing.ipynb' -> Conducts A/B tests and generates insights
+1. [notebooks/01_Data_Generation.ipynb] -> Generates synthetic dataset
+2. [notebooks/02_Exploratory_Data_Analysis.ipynb] -> Exploratory data analysis
+3. [notebooks/03_A_B_Testing.ipynb] -> Conducts A/B tests and generates insights
 
 --- 
 
@@ -69,6 +69,7 @@ Install dependencies with:
 
 '''bash
 pip install -r requirements.txt 
+'''
 
 ## How to Run 
 
@@ -84,7 +85,13 @@ pip install -r requirements.txt
 
 ## Key Insights 
 
-* 
+* Image Layout led to a 14.6% relative life in clicked CTA and a 29% relative lift in conversion rates
+* CTA Button showed a relative lift of 12.3% and 20.2% in clicked-CTA and conversion rates respectively.
+* Social Proof increased clicked-CTA with a relative lift of 5.8% and conversion rate by 28.4
+* Bayesian expected lift with a 95% confidence intervals also seconds the result that the three experiments led to an increased user engagement and revenue.
+* For conversion improvements, we need to prioritize Image Layout Test and Social Proof. On the other hand, CTA button and Image layout are more effective for CTA clicks.
+* The p-values observed in raw and when FDR-adjusted attest to the fact that all the tests are statistically significant.
+* Segmentation and Cohort Analysis also corroborate the findings across various user types and across different time periods. 
 
 
 
