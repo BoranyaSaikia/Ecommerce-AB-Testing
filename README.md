@@ -19,9 +19,9 @@ This project aims to analyze the impact of three A/B tests - **Social Proof**, *
 ## Notebooks
 
 The analysis is structued into three notebooks: 
-1. [1_data_generation](notebooks/01_Data_Generation.ipynb) -> Generates synthetic dataset
-2. [2_EDA](notebooks/02_Exploratory_Data_Analysis.ipynb) -> Exploratory data analysis
-3. [3_AB_Analysis](notebooks/03_A_B_Testing.ipynb) -> Conducts A/B tests and generates insights
+1. [Data Generation Notebook](notebooks/01_Data_Generation.ipynb) -> Generates synthetic dataset
+2. [EDA Notebook](notebooks/02_Exploratory_Data_Analysis.ipynb) -> Exploratory data analysis
+3. [AB Analysis Notebook](notebooks/03_A_B_Testing.ipynb) -> Conducts A/B tests and generates insights
 
 --- 
 
